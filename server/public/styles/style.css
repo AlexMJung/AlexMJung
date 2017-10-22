@@ -1,0 +1,63 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    z-index: -20;
+}
+#profile{
+    border-radius: 25px;
+    height: 300px;
+    width: auto;
+}
+#icon{
+    height: 50px;
+    width: 50px;
+}
+#iconBar{
+    width: 40%;
+    margin-top: 3%;
+}
+#name{
+    text-align: center;
+}
+.techOne img{
+    height: 150px;
+    width: auto;
+}
+.techTwo img{
+        height: 150px;
+    width: auto;
+}
+.techThree img{
+        height: 150px;
+    width: auto;
+}
+.techFour img{
+        height: 150px;
+    width: auto;
+}
+.techFive img{
+        height: 150px;
+    width: auto;
+}
+.techSix img{
+        height: 150px;
+    width: auto;
+}
+.techSeven img{
+        height: 150px;
+    width: auto;
+}
+.techEight img{
+        height: 150px;
+    width: auto;
+}
+.techNine img{
+        height: 150px;
+    width: auto;
+}
+.techTen img{
+        height: 150px;
+    width: auto;
+}

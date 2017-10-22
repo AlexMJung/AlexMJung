@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex Jung</title>
+    <!--angular and angular route-->
+    <script type="text/javascript" src="./vendors/angular.js"></script>
+    <script type="text/javascript" src="./vendors/angular-route.js"></script>
+    <script type="text/javascript" src="./vendors/moment.js"></script>
+
+    <!--Angular Material-->
+    <link href="./vendors/angular-material.css" rel="stylesheet" type="text/css">
+    <script src="./vendors/angular-animate.js" charset="utf-8"></script>
+    <script src="./vendors/angular-aria.js" charset="utf-8"></script>
+    <script src="./vendors/angular-messages.js" charset="utf-8"></script>
+    <script src="./vendors/angular-material.js" charset="utf-8"></script>
+    <script src="./vendors/sweetalert.min.js"></script>
+
+    <!--Client side-->
+    <script type="text/javascript" src="scripts/client.js"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body ng-app="userApp">
+    <!-- left-side -->
+    <div layout="row">
+        <div layout="column" flex="25">
+            <div layout="row" layout-align="space-around center">
+                <div class="techOne">
+                    <img src="./views/images/html.png">
+                </div>
+                <div class="techTwo">
+                    <img src="./views/images/css.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techThree">
+                    <img src="./views/images/angular.png">
+                </div>
+                <div class="techFour">
+                    <img src="./views/images/jquery-icon.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techFive">
+                    <img src="./views/images/bootstrap.png">
+                </div>
+                <div class="techSix">
+                    <img src="./views/images/angularmaterial.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techSeven">
+                    <img src="./views/images/javascript.png">
+                </div>
+                <div class="techEight">
+                    <img src="./views/images/Git.png">
+                </div>
+            </div>
+        </div>
+        <!-- center -->
+        <div flex="50" layout="column">
+            <div>
+                <div layout="row">
+                    <h1 id="name" flex="70" flex-offset="15">Alex M. Jung</h1>
+                </div>
+            </div>
+            <div>
+                <div layout="row" layout-align="center">
+                    <img id="profile" src="./views/images/ALEX 2.jpeg">
+                </div>
+            </div>
+            <div id="iconBar" flex-offset="30" layout="row" layout-align="space-around center">
+                <div>
+                    <a ng-href="https://github.com/AlexMJung" target="_blank">
+                        <img id="icon" src="./views/images/github.png"></img>
+                    </a>
+                </div>
+                <div>
+                    <a ng-href="https://www.linkedin.com/in/alexandermjung/" target="_blank">
+                        <img id="icon" src="./views/images/linkedin.png" target="_blank"></img>
+                    </a>
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div flex="10">Ideation</div>
+                <div flex="10">Strategic </div>
+                <div flex="10">Command </div>
+                <div flex="10"> Communication </div>
+                <div flex="10">Achiever</div>
+            </div>
+            <div layout="row" layout-align="center center">
+            <div class="techNine">
+                <img src="./views/images/AJAX.png">
+            </div>
+            </div>                        
+        </div>
+        <!-- right side -->
+        <div layout="column" flex="25">
+            <div layout="row" layout-align="space-around center">
+                <div class="techOne">
+                    <img src="./views/images/nodejs.png">
+                </div>
+                <div class="techTwo">
+                    <img src="./views/images/npm.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techThree">
+                    <img src="./views/images/postgresql.png">
+                </div>
+                <div class="techFour">
+                    <img src="./views/images/mongoDB.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techFive">
+                    <img src="./views/images/VSCode.png">
+                </div>
+                <div class="techSix">
+                    <img src="./views/images/trello.png">
+                </div>
+            </div>
+            <div layout="row" layout-align="space-around center">
+                <div class="techTen">
+                    <img src="./views/images/JIRA.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    email: alexandermjung89@gmail.com phone: 763-226-6415
+</footer>
+</html>
