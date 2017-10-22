@@ -1,70 +1,51 @@
-# Name of Project
+# Alex's Profile
 
-One Paragraph of project description goes here. Link to the live version of the app if it's hosted on Heroku.
+Here is the source code for my portfolio. 
+http://alexmjung.com
 
 ## Built With
 
-List technologies and frameworks here
+HTML 5
+CSS 3
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Simply clone the repo. 
 
 ### Prerequisites
 
 Link to software that is required to install the app (e.g. node).
 
 - [Node.js](https://nodejs.org/en/)
-- List other prerequisites here
+- [Angular Material](https://www.npmjs.com/package/angular-material)
 
 
 ### Installing
 
-Steps to get the development environment running.
-
-```sql
-CREATE TABLE "users" (
-  "id" serial primary key,
-  "username" varchar(80) not null UNIQUE,
-  "password" varchar(240) not null
-);
-```
-
-## Screen Shot
-
-Include one or two screen shots of your project here (optional). Remove if unused.
-
-## Documentation
-
-Link to a read-only version of your scope document or other relevant documentation here (optional). Remove if unused.
+Simply download into an IDE
 
 ### Completed Features
 
 High level list of items completed.
 
-- [x] Feature a
-- [x] Feature b
+- [x] Include contact info.
+- [x] Tell a little bit about yourself.
+- [x] Be hosted on the web.
 
 ### Next Steps
 
 Features that you would like to add at some point in the future.
 
-- [ ] Updating student info.
-- [ ] Adding filters for the history table.
-- [ ] Modifying functionality based on student emotional awareness.
-- [ ] Adding animations to the student view.
-- [ ] Adding an admin level.
-- [ ] Adding a registration key.
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+- [ ] Make the icons fade in and out. 
+- [ ] Add a length of time using this tech based on start date and current date. 
+- [ ] Include views of other projects.
 
 ## Authors
 
-* Name of author(s)
+* Alex Jung
 
 
 ## Acknowledgments
 
-* Charly Renk for reminding me what an MVP is.
+* My wife for the cool design ideas!
