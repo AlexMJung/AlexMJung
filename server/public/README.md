@@ -5,8 +5,8 @@ http://alexmjung.com
 
 ## Built With
 
-HTML 5
-CSS 3
+-HTML 5 & CSS 3
+-Angular Material
 
 
 ## Getting Started
